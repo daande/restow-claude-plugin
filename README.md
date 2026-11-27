@@ -16,6 +16,8 @@ In Claude Code, load the plugin and use `/mcp` to connect the Restow server. The
 
 These prompts use sample references. Use references from your connected workspace.
 
+See the [Restow tool reference](docs/tools.md) for the full list of tools, permissions, and supported changes.
+
 ## Data and permissions
 
 The plugin provides a lookup skill and connects to the Restow API at `https://api.restow.io/api/v1/mcp`. Claude sends the tool name and arguments to Restow. Restow returns relevant results from the approved workspace, which may include inventory, product, customer, supplier, order, and sales information. With write approval, Restow also receives and saves the requested customer and product changes and comments. The bundle contains Markdown and JSON. Restow authenticates the connection through OAuth.
