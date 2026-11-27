@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "restow": {
+      "type": "http",
+      "url": "https://api.restow.io/api/v1/mcp"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "restow",
+  "displayName": "Restow",
+  "version": "1.0.0",
+  "description": "Check inventory by part and location, track sales and purchase orders, and make approved catalog and customer updates in Restow.",
+  "author": {
+    "name": "Core Platform Systems Inc.",
+    "url": "https://coreplatforms.ai/"
+  },
+  "homepage": "https://restow.io/",
+  "privacyPolicyUrl": "https://restow.io/privacy/",
+  "license": "MIT"
+}
